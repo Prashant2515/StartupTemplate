@@ -1,0 +1,51 @@
+.MainBackgroundContainer{
+    box-sizing: border-box;
+    box-shadow: 0 0 150px #dad8ef;
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    padding: 85px 0px 10px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 234px;
+}
+.headContent{
+    padding: 8px 10px;
+    /* background-color:black ; */
+    width: 435px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: justify;
+    text-wrap: wrap;
+}
+.btnhead{
+    background-color: rgb(50, 50, 255);
+    width: 120px;
+}
+.headContent h2{
+    /* color: #000; */
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+.headContent p{
+    color:rgb(101, 106, 124);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.headContent button {
+    all: unset;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(50, 50, 255);
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.sideSvgContainer{
+    position: relative;
+    top: -13.5%;
+}

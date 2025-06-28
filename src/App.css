@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:inherit;
+    /* border: 1px solid red; */
+    
+    
+}
+
+.MainContainer{
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+
+}
+.MainSection{
+    height: 90%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* About us Section */
+.AboutSection{
+    height: 98%;
+    width: 100%;
+    position: relative;
+    top: 110%;
+    display: flex;
+    margin-top: 30px;
+    box-shadow: 0 0 250px #dad8ef inset;
+    padding: 100px 20px 100px 20px;
+    place-content: center;
+}
+
+/* Pricing Section  */
+.PricingSection{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    /* background-color: black; */
+    position: relative;
+    top: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+
+
+}
