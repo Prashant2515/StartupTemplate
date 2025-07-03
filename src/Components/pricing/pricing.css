@@ -43,15 +43,13 @@ h3{
 }
 .pricingCard{
     width: 28%;
-    height: 100%;
-    border: 1px solid #fff;
+    height: 110%;
+    border-left-color: 0px solid #fff;
     box-sizing: border-box;
     box-shadow: 0 0 10px #b7b8e1 ;
     border-radius:10px ;
-    /* background-color:black; */
     display: flex;
     flex-direction: column;
-    /* margin-left: 50px; */
     gap: 0px;
     margin-top: 10px;
     padding-top: 20px;
@@ -74,6 +72,20 @@ h3{
     border: 0.5px solid blue;
     padding: 12px 18px 12px 18px ;
     margin-top: 30px;
-    border-radius: 20px;
+    border-radius: 20px;  
+}
+.pricingCard:hover{
+    background-color: blue;
+    color: white;
     
+}
+.pricingCard:hover>h3,h2{
+    color: white;
+}
+.pricingCard:hover>button{
+    background-color: white;
+    color: blue;
+}
+.pricingCard:hover>.insidePricingCard>p{
+    color: white;
 }
